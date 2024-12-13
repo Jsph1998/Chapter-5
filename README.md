@@ -1,1 +1,2 @@
 # Chapter-5
+In this chapter, i learned that the widget tree is the result of nested widgets. As the number of widgets increases, the widget tree expands quickly and lessens code readability and manageability. I call this the full widget tree. To improve code readability and manageability, i can separate widgets into their own widget class, creating a shallower widget tree. In each app, i should strive to keep the widget tree shallow. By refactoring with a widget class, you can take advantage of Flutter’s subtree rebuilding, which improves performance.
